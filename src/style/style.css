@@ -1,0 +1,244 @@
+
+@import url("http://fonts.googleapis.com/css?family=Oswald:400,300,700");
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('http://fonts.cdnfonts.com/css/valorant');
+@import url('https://fonts.googleapis.com/css2?family=Antonio&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+body,html {
+    font-family: 'Quicksand', sans-serif !important;
+    
+  }
+
+
+.logo{
+    font-family: 'Potta One', sans-serif !important;
+    margin-left: 15px;
+}
+.navigation{
+    border-bottom: 1px solid rgb(164, 164, 164);
+    
+}
+
+.login{
+    height: 100vh;
+    padding: 8%;
+    justify-content: end;
+    align-items: end;
+    background: rgb(255, 255, 255);
+}
+
+.login_image{
+    justify-content: center;
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+.text_login{
+    font-size: 3rem;
+}
+/* .header_login{
+    background: #F5F5F5;
+   
+}
+.text_login{
+    font-size: 3rem;
+}
+
+.body_login{
+    background: #F5F5F5;
+        font-weight: 1000;
+        border-bottom-right-radius: 6px;
+        border-bottom-left-radius: 6px;
+} */
+
+.bg{
+    height: 93vh;
+    /* background: url("../assets/images/bg_intro3.png"); */
+
+    background-image:url("../assets/images/bg_intro3.png"), linear-gradient(0deg, rgba(0, 0, 0, 0.711), rgba(200, 200, 200, 0.52)), url("../assets/images/b2.jpg");
+    background-position: right bottom, left top;
+
+    background-attachment:scroll,fixed,fixed;
+
+    background-size:cover ;
+    background-position: center;
+}
+
+.intro{
+    height: 30%;
+
+    padding: 8%;
+    justify-content: end;
+    align-items: end;
+}
+
+
+.tittle_intro{
+    font-size: 3rem;
+    font-weight: 1000;
+    line-height: 1;
+    letter-spacing: 2px;
+
+}
+
+.slogan_intro{
+    font-size: 3rem;
+    font-weight: 1000;
+    
+}
+
+
+
+
+.find_intro{
+    font-size: 1.4rem;
+    padding: 5%;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.listimages{
+
+    height: 100vh;
+    
+}
+
+.tittle_list{
+    font-size: 2rem;
+    font-weight: 600;
+
+}
+.profile_pop{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    display: flex;
+}
+
+.dropdown-toggle::after {
+    display: none;
+  }
+.profile_nav{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
+    display: flex;
+}
+
+.test{
+ 
+    margin: auto;
+    margin-bottom: 23px;
+   
+ 
+}
+
+.foto_list{
+    height: 230px;
+    width: auto;
+    object-fit: cover;
+    display: flex;
+   
+}
+
+.text_list{
+    font-size: 15px;
+  
+    
+}
+
+.icon{
+    font-size: 3rem;
+}
+
+
+/* ////////////////// */
+
+.form{
+	width: 40%;
+	background-color: rgb(25, 25, 25);
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	
+}
+.form h1{
+	text-align: center;
+	margin-bottom: 20px;
+	width: 100%;
+}
+.form form{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.flex-rev {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 10px;
+		width: 100%;
+}
+
+.flex-rev input, .flex-rev textarea {
+    border: none;
+    background-color: #e6e6e6;
+    padding: 12px 10px;
+    font-size: 16px;
+    resize: none;
+    margin-top: 9px;
+    /* margin-bottom: 16px; */
+    margin-bottom: 1px;
+    border-radius: 1px;
+    color: #000000fe;
+    outline-color: #243342;
+    outline-width: thin;
+	 -webkit-appearance: none;
+}
+.flex-rev textarea{
+	height: 150px;
+}
+
+.dashboard{
+    
+}
+
+.border_dashboard{
+    border: 1px solid rgb(205, 205, 205);
+    border-style: ridge;
+    background:white;
+    height: 100%;
+
+}
+
+.foto_dashboard{
+    border-radius: 50%;
+    height: 210px;
+    width: 210px;
+    overflow: hidden;
+    display: flex;
+    margin: 10px;
+}
+
+.tittle_dashboard{
+    font-size: 2rem;
+}
+
+.list_image_dashboard{
+    height: 200px;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+ .btn-primary-outline {
+    background-color: rgb(232, 203, 124) !important;
+    border-color: rgb(253, 253, 253);
+  }
